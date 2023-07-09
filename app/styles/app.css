@@ -618,8 +618,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.5rem;
 }
 
-.w-1\/5 {
-  width: 20%;
+.w-60 {
+  width: 15rem;
 }
 
 .w-24 {
@@ -759,8 +759,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 1rem;
 }
 
-.border-l-4 {
-  border-left-width: 4px;
+.border-l-2 {
+  border-left-width: 2px;
 }
 
 .border-b-4 {
