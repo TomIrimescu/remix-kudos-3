@@ -559,6 +559,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -0.5rem;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
+.m-16 {
+  margin: 4rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -634,6 +642,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 3rem;
 }
 
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -684,6 +720,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-12 {
   height: 3rem;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .max-h-screen {
@@ -772,6 +812,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-56 {
   width: 14rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .flex-1 {
@@ -980,6 +1032,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1010,8 +1066,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .pr-8 {
   padding-right: 2rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .text-center {
