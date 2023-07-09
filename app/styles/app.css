@@ -468,6 +468,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -678,6 +712,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -826,6 +864,39 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7rem;
 }
 
+.min-w-min {
+  min-width: -moz-min-content;
+  min-width: min-content;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.min-w-\[50\%\] {
+  min-width: 50%;
+}
+
+.min-w-\[100px\] {
+  min-width: 100px;
+}
+
+.min-w-\[120px\] {
+  min-width: 120px;
+}
+
+.min-w-\[126px\] {
+  min-width: 126px;
+}
+
+.min-w-\[200px\] {
+  min-width: 200px;
+}
+
+.min-w-\[250px\] {
+  min-width: 250px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -844,8 +915,16 @@ Ensure the default browser behavior of the `hidden` attribute.
           appearance: none;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -1226,7 +1305,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .sm\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .sm\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .sm\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .sm\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }

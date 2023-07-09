@@ -10,7 +10,7 @@ export function UserPanel({ users }: props) {
   const navigate = useNavigate();
   return (
     <>
-      <div className='w-1/6 h-full bg-gray-200 flex flex-col overflow-hidden relative'>
+      <div className='w-1/6 h-full bg-gray-200 flex flex-col overflow-hidden relative min-w-[126px]'>
         <div className='text-center bg-gray-300 h-20 flex items-center justify-center'>
           <h2 className='text-xl text-blue-600 font-semibold absolute'>
             My Team
